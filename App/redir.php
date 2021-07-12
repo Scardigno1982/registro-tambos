@@ -1,0 +1,1 @@
+<?PHP header("Location: http://municipio.chascomus.gob.ar/municipio/estaticas/consultaInfracciones"); ?>

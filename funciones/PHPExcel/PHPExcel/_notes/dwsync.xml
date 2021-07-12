@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Autoloader.php" server="C:/wamp/www/CC_Lecheria/" local="131775156983006575" remote="131775156980000000" Dst="0" />
+<file name="CachedObjectStorageFactory.php" server="C:/wamp/www/CC_Lecheria/" local="131775156990154825" remote="131775156990000000" Dst="0" />
+<file name="Calculation.php" server="C:/wamp/www/CC_Lecheria/" local="131775157004113547" remote="131775157000000000" Dst="0" />
+<file name="Cell.php" server="C:/wamp/www/CC_Lecheria/" local="131775157007642056" remote="131775157000000000" Dst="0" />
+<file name="Chart.php" server="C:/wamp/www/CC_Lecheria/" local="131775157012960354" remote="131775157010000000" Dst="0" />
+<file name="Comment.php" server="C:/wamp/www/CC_Lecheria/" local="131775157013360656" remote="131775157010000000" Dst="0" />
+<file name="DocumentProperties.php" server="C:/wamp/www/CC_Lecheria/" local="131775157013856268" remote="131775157010000000" Dst="0" />
+<file name="DocumentSecurity.php" server="C:/wamp/www/CC_Lecheria/" local="131775157014199384" remote="131775157010000000" Dst="0" />
+<file name="Exception.php" server="C:/wamp/www/CC_Lecheria/" local="131775157014847492" remote="131775157010000000" Dst="0" />
+<file name="HashTable.php" server="C:/wamp/www/CC_Lecheria/" local="131775157015276387" remote="131775157010000000" Dst="0" />
+<file name="IComparable.php" server="C:/wamp/www/CC_Lecheria/" local="131775157015581379" remote="131775157010000000" Dst="0" />
+<file name="IOFactory.php" server="C:/wamp/www/CC_Lecheria/" local="131775157016067460" remote="131775157010000000" Dst="0" />
+<file name="NamedRange.php" server="C:/wamp/www/CC_Lecheria/" local="131775157030478332" remote="131775157030000000" Dst="0" />
+<file name="ReferenceHelper.php" server="C:/wamp/www/CC_Lecheria/" local="131775157043573926" remote="131775157040000000" Dst="0" />
+<file name="RichText.php" server="C:/wamp/www/CC_Lecheria/" local="131775157045003576" remote="131775157040000000" Dst="0" />
+<file name="Settings.php" server="C:/wamp/www/CC_Lecheria/" local="131775157045470595" remote="131775157040000000" Dst="0" />
+<file name="Style.php" server="C:/wamp/www/CC_Lecheria/" local="131775157077802100" remote="131775157070000000" Dst="0" />
+<file name="Worksheet.php" server="C:/wamp/www/CC_Lecheria/" local="131775157090904310" remote="131775157090000000" Dst="0" />
+<file name="WorksheetIterator.php" server="C:/wamp/www/CC_Lecheria/" local="131775157091376090" remote="131775157090000000" Dst="0" />
+</dwsync>

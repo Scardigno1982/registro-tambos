@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Opacado {
+	position: fixed; z-index: 99;
+	top: 0px; bottom: 0px;
+	left: 0px; right: 0px;
+	background: url(../imagenes/procesos/bloqueo.png);
+	text-align: center;
+}
+.Mensaje {
+	text-align: center;
+	border: 1px #006633 solid; margin: auto;
+	background: #F1FEF1;
+}
+.Mensaje .MTitulo {
+	background: #006633; color: #FFF; height: 15px;
+	font: bold 9pt Verdana, Geneva, sans-serif;
+	text-align: left; padding: 2px;
+}
+.Mensaje .MTitulo a {
+	color: #FFF;
+	text-decoration: none;
+	float: right; width: 10px; 
+	text-align: right;
+}
+.Mensaje .MTitulo .MTools {
+	
+}
+.Mensaje .MConten {
+	margin: 2px; 
+	text-align: center;
+	overflow: auto;
+}
+.MBloqueo {
+	padding: 20px;
+	text-align: center;
+}
+
+.M-Nombre {
+	margin: 5px auto; width: 370px;
+	font: 9pt Verdana, Geneva, sans-serif;
+	text-align: left;
+}
+.M-Email {
+	margin: 5px; width: 300px;
+	border: 1px #666 solid; 
+}
+.M-Efectivo {
+	margin: 5px 270px 5px 5px; 
+	width: 90px;
+	border: 1px #666 solid;
+	text-align: right;
+}
+.M-Boton {
+	border: 1px #666 solid;
+	min-width: 70px;
+	margin: 5px;
+}

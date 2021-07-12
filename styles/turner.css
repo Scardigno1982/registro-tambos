@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#configuracion {
+	min-height: 400px;
+	text-align: center;
+}
+#grillatrn {
+	padding: 10px; overflow: auto;
+}
+.cfg-grilla{
+	display: block;
+}
+.cfg-paramet{
+	display: block;
+}
+#cfg-conten{
+	width: 850px; float:right;
+}
+.cfr-espBlq{
+ display:block; 
+ text-align:left; 
+ width:90%; 
+ margin: 8px;
+}
+.cfg-espBox{
+	height: 15px; width: 20px;
+	border: 0px #333 solid;
+	display: inline-block;
+} 
+.cfr-prcBlq{
+ display:block; 
+ text-align:right; 
+ width:90%; 
+ margin: 8px;
+}
+.cfg-prcBox{
+	height: 15px; width: 10px;
+	border: 0px #333 solid;
+	display: inline-block;
+} 
+.cfg-prfBox{
+	height: 22px; width: 25px;
+	border: 0px #333 solid;
+	display: inline-block;
+} 
+
+#rsvGrilla {
+	width: 1000px; height: 550px;
+}
+#rGlEncabe {
+	width: 992px; height: 20px;
+	text-align: left;
+	padding: 4px;
+}
+.rGlEncFiltro {
+	font: 12pt Arial, Helvetica, sans-serif;
+	display: inline-block;
+}
+#rGlEspecs {
+	width: 500px; float: left; 
+	text-align: left;
+}
+#rGlEspecs a {
+	font: 10pt Verdana, Geneva, sans-serif;
+	padding: 10px;
+}
+#rGlProfes {
+	width: 500px; float: right;
+	text-align: right;
+}
+#rGlProfes span {
+	font: 10pt Verdana, Geneva, sans-serif;
+	padding: 5px;
+}
+
+#rGlSemana {
+	position: relative; 
+	width: 1000px; height: 550px;
+	background: url("../imagenes/iconos/bkgSemana.fw.png");
+	overflow: hidden;
+}
+.rGlTtlDia{
+	font: bold 11pt Verdana, Geneva, sans-serif; padding: 2px 0px;
+	width: 190px; height: 19px; position: absolute; top: 0px; 
+	text-align: center; vertical-align: text-bottom;
+}
+.rGlTtlHra{
+	font: bold 9pt Verdana, Geneva, sans-serif; padding: 2px 0px;
+	width: 50px; height: 13px; text-align: center;
+	position: absolute; left: 0px;
+}
+.rGlBtnRsv{
+	font: 9pt Verdana, Geneva, sans-serif; text-decoration: none;
+	padding: 2px; text-align: left; overflow: hidden;
+	position: absolute; color: #FFF; border: 1px #666 solid;
+	background: url(../imagenes/iconos/btnDegrad.fw.png) left top repeat-x;
+}
+.rGlBtnRsvT{
+	min-width: 180px;
+	display: block;
+}
+.rGlBtnRsvT a{
+	color: #FFF;
+}
+
+.rsv-grlProfe{
+	padding: 10px;
+	font: bold 11pt Verdana, Geneva, sans-serif;
+}
+.rsv-grlEspec{
+	padding: 5px 30px;
+	font: bold 10pt Verdana, Geneva, sans-serif;
+}
+.rsv-grlPract{
+	padding: 5px 0px 5px 30px;
+	font: 9pt Verdana, Geneva, sans-serif;
+}
+.rsv-grlDispo{
+	padding: 5px 0px 5px 50px;
+	font: 9pt Verdana, Geneva, sans-serif;
+	display: inline-block;
+}
+.rsv-grlDip{
+	padding: 10px; 
+	background: #F9FDEC;
+}
+
+
+#rsvFResrv{
+	width: 400px; height:170px; margin: 170px auto; 
+	background: #FFF;	text-align: center;
+	padding: 5px; display: block;
+}
+#rsvContend{
+	margin: auto; width:400px; height: 90px;
+}
+#rsvCntEncb{
+	background: #333; color: #FFF;
+	font: bold 10pt Verdana, Geneva, sans-serif;
+	height: 15px; padding: 2px;
+	text-align: left;
+}
+#rsvCntEncX {
+	width: 20px; float: right;
+	text-align: center;
+}
+#rsvCntEncX a{
+	color: #FFF; text-decoration: none;
+}
+#rsvCntData{
+	height: 60px; padding: 5px; text-align: left; 
+	font: 11pt Verdana, Geneva, sans-serif;
+}
+#rsvCntDate{
+	height: 20px; padding: 5px; text-align: left;
+	background: #999; color: #FFF;
+	font: bold 11pt Verdana, Geneva, sans-serif;
+}
+
+#rsvCntDSmn{
+	font: bold 11pt Verdana, Geneva, sans-serif;
+}
+#rsvCntFech{
+	font: 10pt Verdana, Geneva, sans-serif;
+}
+#rsvCntFech a{
+	text-decoration: none; color: #FFF;
+}
+
+#rsvCntTrns{
+	height: 275px; width: 150px; float: left;
+	padding: 5px; text-align: left; 
+	overflow: auto; border: 1px #999 solid; 
+}
+.rsvCntHora{
+	border-bottom: 1px #CCCCCC solid;
+	text-align: left; padding: 2px;
+}
+#xrsvCntHora .xtnd{
+	height: 35px;
+}
+.rsvCntOcup{
+	color: #039; padding-left: 3px; 
+	text-decoration: none;
+	font: bold 9pt Verdana, Geneva, sans-serif;
+}
+.rsvCntOcupA{
+	color: #903; padding-left: 3px; 
+	text-decoration: none;
+	font: bold 9pt Verdana, Geneva, sans-serif;
+}
+.rsvCntLbre{
+	color: #0C3; padding-left: 3px; 
+	text-decoration: none;
+	font: bold 9pt Verdana, Geneva, sans-serif;
+}
+#rsvCntPcTl{
+	height: 35px; width: 322px; float: right;
+	padding: 5px; text-align: right;
+	background: #999; color: #FFF;
+	font: bold 12pt Verdana, Geneva, sans-serif;
+}
+#rsvCntPcDt{
+	height: 170px; width: 388px;
+	padding: 5px; text-align: left; 
+	overflow: auto; border-top: 1px #999 solid; 
+}
+#rsvCntPcDt .ttl{
+	font: bold 10pt Verdana, Geneva, sans-serif;
+	margin-top: 5px;
+}
+#rsvCntPcDt .btn{
+	float: right; margin-top: 10px;	
+}
+#rsvCntPcDt .slDoc{
+	font: 10pt Verdana, Geneva, sans-serif;
+	width: 100%; border: none;
+	border-bottom: 1px #999999 solid;
+	border-right: 1px #999999 solid; 
+}
+#rsvCntPcDt .inDoc{
+	font: 10pt Verdana, Geneva, sans-serif;
+	width: 100%; border: 1px #999999 solid;
+}
+#avs {
+	width: 150px; padding: 5px;
+	font: 10pt Verdana, Geneva, sans-serif;
+	color: #C30; float: left;
+}
+#rsvLstPcntes {
+	background: #FFF; border: 1px #999 solid;
+	width: 384px; height: 71px; padding: 2px;
+	position: fixed; top: 340px; overflow: auto;
+}
+#rsvLstPcntes a { 
+	color: #000; text-decoration: none; 
+}
+#rsvLstPcntes a:hover { 
+	text-decoration: underline;
+}
+
+#rsvCntPcMs{
+	font: bold 11pt Verdana, Geneva, sans-serif;
+	text-align: center; padding-top: 50px;
+}
+
+#rsv-listdsEnca{
+	width: 990px; height: 50px;
+	text-align: left; padding: 5px;
+	font: 10pt Verdana, Geneva, sans-serif;
+}
+#rsv-listdsCols{
+	width: 1000px; height: 480px;
+	overflow-y: hidden;
+	overflow-x: auto; 
+}
+#rsv-listdsScroll{
+	min-width: 1000px; overflow: visible;
+	height: 457px; display: inline-flex;
+}
+.rsv-lstDspCol{
+	width: 248px; border: 1px #333333 solid;
+	height: 455px; float: left;
+}
+.rsv-lstDspCFh{
+	font: bold 11pt Verdana, Geneva, sans-serif;
+	padding: 3px; border-bottom: 1px #333333 solid;
+}
+.rsv-lstDspLst{
+	height: 430px;
+	overflow: auto;
+}
+#rsv-periods{
+	width: 130px; float: right;
+	text-align: center;
+	padding-top: 10px;
+}
+#rsv-periods img{
+	vertical-align: middle;
+}
+
+#tblReserva td {
+	border-bottom: 1px #333 solid;
+}
+#cfg-prf-list{
+	text-align: left; margin: auto; width: 80%; 
+}
+.cfg-prf-profe{
+	padding: 30px 10px 10px 10px; text-align: left;
+	font: bold 12pt Verdana, Geneva, sans-serif; 
+	margin: auto;
+}
+.cfg-prf-espec{
+	padding: 10px 20px; text-align: left;
+	font: bold 11pt Verdana, Geneva, sans-serif;
+}
+.cfg-prf-practs{
+	padding: 5px 40px; text-align: left; 
+	font: 10pt Verdana, Geneva, sans-serif;
+}
+.rgrlselprf{ 
+	width: 400px; float: left;
+	padding: 10px 50px;
+}
+.rgrlsqmprf{ 
+	width: 400px; float: left;
+	padding: 10px 50px; text-align: left;
+	font: 10pt Verdana, Geneva, sans-serif;
+	
+}
+.rsv-grl-dia{
+	padding: 10px 50px; text-align: left;
+}
+.rsv-grl-dia-txt{
+	font: bold 12pt Arial, Helvetica, sans-serif;
+}
+.rsv-grl-hro{
+	padding: 10px; width: 400px; display: table-cell;
+}
+.rsv-grl-hro-txt{
+	font: bold 11pt Arial, Helvetica, sans-serif;
+}
+.rsv-grl-tpo{
+	font: 10pt Verdana, Geneva, sans-serif;
+	width: 200px; display: table-cell;
+}
+
+#frm-edtProf input{
+	width: 450px;
+}
+#edtPrfPrcs {
+	width: 430px; padding: 10px;
+	border: 1px #999999 solid;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#cfg-NwPcnt{
+	padding: 5px; text-align: right;
+}
+#cfg-NwPcnt input{
+	width: 280px;
+}
+#cfg-NwPcnt select {
+	width: 284px;
+}
+
+#lstSelDia{
+	width: 180px; float: left;
+	height: 30px; text-align: left;
+	padding-top: 3px;
+}
+#lstSelMes{
+	width: 240px; float: left;
+	height: 30px; text-align: left;
+	padding-top: 3px;
+}
+#lstSelProf{
+	width: 380px; float: left;
+	height: 30px; text-align: center;
+	padding-top: 10px;
+}
+#lstSelDisp{
+	width: 380px; float: left;
+	height: 30px; text-align: left;
+	padding-top: 10px;
+}
+#lstSelBtn{
+	width: 60px; float: right;
+	height: 30px; display: block;
+	padding-top: 10px;
+}
+#lstFiltros{
+	width: 1200px; margin: auto;
+}
+#lstListado{
+	width: 1200px; margin: auto;
+}
+#lst-titulo{
+	text-align: left;
+}
+
+.lstTblTurnos th{
+	background: #999;
+}
+.lstTblTurnos td{
+	border-bottom: 1px #666666 solid;
+	height: 20px;
+}
+
+#medLstDiagnos {
+	background: #FFF; border: 1px #999 solid;
+	width: 485px; height: 68px; padding: 2px;
+	position: fixed; top: 200px; overflow: auto;
+	text-align: left;
+}
+#medLstDiagnos a { 
+	color: #000; text-decoration: none; 
+}
+#medLstDiagnos a:hover { 
+	text-decoration: underline;
+}
+
+#adm-admisor {
+	width: 1000px; text-align: left;
+}
+#adm-resultado{
+	width: = 1000px;
+}
+#adm-paciente{
+	width: 400px; text-align:left;
+	float: left; padding: 10px;
+}
+#adm-reserva{
+	width: 600px; text-align:left;
+	float: right; padding: 10px;
+	overflow: auto; height: 480px;
+}

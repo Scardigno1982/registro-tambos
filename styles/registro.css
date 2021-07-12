@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #EAFFD2; color: #000;
+	text-align: center;
+	font: 9pt Verdana, Geneva, sans-serif;
+}
+#encabezado {
+	height: 80px; border-bottom: solid 5px #333;
+	background: #FFF; color: #333;
+}
+#encabezado a {
+	color: #333; text-decoration: none;
+}
+#encabezado a:hover {
+	text-decoration: underline;
+}
+#logotipo {
+	width: 300px; float: left; text-align: left;
+	font: bold 30pt Verdana, Geneva, sans-serif;
+	padding: 10px;
+}
+#botonera {
+	width: 500px; float: right;
+}
+.boton {
+	width: 90px; height: 20px; float: right;
+	padding-top: 10px;
+}
+.menuflotan{
+	background: #6C6; color: #FFF;
+	border: 1px #063 solid;
+	border-left: 4px #063 solid;
+	text-align: left;	padding: 5px;
+	position: fixed; top: 89px;
+	display: block; z-index: 999;
+}
+.menuflotan a {
+	color: #FFF; text-decoration: none;
+}
+.menuflotan a:hover {
+	color: #FFF; text-decoration: underline;
+}
+#mfConfig{
+	right: 75px; width: 120px; 
+}
+#mfExport{
+	right: 150px; width: 150px; 
+}
+.mfboton { padding: 2px; }
+
+
+
+#container {
+	width: 1200px; margin: auto;
+}
+#frmFiltros {
+	text-align: left;
+}
+#frgActas {
+	width: 220px; text-align: left;
+	float: left;
+}
+#frgFechas {
+	width: 282px; text-align: left;
+	float: left;
+}
+#frgMedios {
+	width: 168px; text-align: left;
+	float: left;
+}
+#frgSeccio {
+	width: 168px; text-align: left;
+	float: left;
+}
+#frgTipos {
+	width: 168px; text-align: left;
+	float: left;
+}
+#frgResul {
+	width: 160px; text-align: left;
+	float: left;
+}
+#frgInfra {
+	width: 360px; text-align: left;
+	float: left;
+}
+#frgDomic {
+	width: 310px; text-align: left;
+	float: left;
+}
+#frgDomin {
+	width: 100px; text-align: left;
+	float: left;
+}
+#frgEstad {
+	width: 168px; text-align: left;
+	float: left;
+}
+#frgOrden {
+	width: 168px; text-align: left;
+	float: left;
+}
+#frgBusca {
+	width: 60px; text-align: left;
+	float: left;
+}
+input { font: Arial, Helvetica, sans-serif; }
+#lstActas {
+	overflow: auto; width: 1200px;
+	position: fixed; bottom: 210px; top: 238px;
+}
+.lstActasTit {
+	background-color: #030; color: #FFF;
+	border: 1px #030 solid; border-bottom: none;
+	width: 1200px;
+}
+.lstActasLst {
+	background-color: #FFF;
+	border: 1px #030 solid; border-top: none;	
+}
+.selActada {
+	border: 1px #C06 solid;
+}
+#actSolap {
+	position: fixed; bottom: 176px;
+	width: 1200px; text-align: left;
+}
+.solapa {
+	background: #060; color: #FFF; border: 1px #000 solid;
+	font: bold 9pt Arial, Helvetica, sans-serif;
+	text-align: center; display: inline-block;
+	width: 150px; padding: 5px; 
+}
+.solapax {
+	background: #393; color: #FFF; border: 1px #333 solid;
+	font: bold 9pt Arial, Helvetica, sans-serif;
+	text-align: center; display: inline-block;
+	width: 150px; padding: 5px; 
+}
+#actDatos {
+	height: 172px; overflow: auto;
+	border: 1px #030 solid; margin-top: 3px;
+	position: fixed; bottom: 3px;
+	width: 1200px;
+}
+#slpConten {
+	text-align:left; padding: 8px;
+}
+#slpConten .slTitul {
+	font: bold 9pt Arial, Helvetica, sans-serif;
+	padding: 6px; display: inline-block;
+	width: 120px; text-align: right;
+	vertical-align: top;
+}
+#slpConten .slDatoC {
+	font: 9pt Arial, Helvetica, sans-serif;
+	padding: 4px; background: #FFF; 
+	border: 1px #999 solid; width: 140px;
+	display: inline-block;
+}
+#slpConten .slDatoN {
+	font: 9pt Arial, Helvetica, sans-serif;
+	padding: 4px; background: #FFF; 
+	border: 1px #999 solid; width: 140px;
+	display: inline-block;
+	text-align: right;
+}
+#slpConten .slDatoL {
+	font: 9pt Arial, Helvetica, sans-serif;
+	padding: 4px; background: #FFF; 
+	border: 1px #999 solid; width: 430px;
+	display: inline-block;
+}
+
+#cfgContent {
+	width: 1000px; margin: auto;
+}
+#cfgFiltro{
+	width: 1000px; text-align: right;
+	height: 25px;
+}
+#cfgListadE{
+	width: 980px; background: #063; color: #FFF;
+	font: bold 10pt Verdana, Geneva, sans-serif;
+	border: 1px #006633 solid; padding-right: 20px;
+}
+#cfgListado{
+	width: 1000px; position: fixed;
+	bottom: 10px; top: 187px;
+	background: #FFF; overflow: auto;
+	border: 1px #006633 solid;
+}

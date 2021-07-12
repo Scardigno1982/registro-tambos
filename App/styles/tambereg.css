@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+
+#frm-registro {
+	width: 1000px; margin: auto;
+	font: 12pt Verdana, Geneva, sans-serif;
+}
+#frm-registro input,select {
+	font: 12pt Verdana, Geneva, sans-serif;
+}
+#frm-registro label {
+	font: 12pt Verdana, Geneva, sans-serif;
+	height: 27px; display: inline-block;
+	padding-top: 3px;
+}
+#frg-identif {
+	margin-top: 10px; border: 1px #666666 solid;
+	padding: 4px; height: 203px;
+	display: block; 
+}
+#frg-identifr {
+	margin-top: 10px; border: 1px #666666 solid;
+	padding: 4px; height: 116px;
+	display: block; 
+}
+#frgi-renspa{
+	width: 285px; float: left;
+	text-align: left; height: 30px;
+}
+	#rnp{ 
+		width: 170px; float: right;
+		text-align: center;
+	}
+#frgi-tptmbo {
+	width: 230px; float: left;
+	text-align: left; padding-left: 30px;
+}
+	#ttm{
+		width: 100px; float: right;
+		text-align: center;
+	}
+#frgi-regprv{
+	width: 400px; float: right;
+	text-align: right; height: 30px;
+}
+#frgi-regprv input {
+	font: bold 12pt Verdana, Geneva, sans-serif;
+}
+  #prv{
+		width: 30px; text-align: center;
+	}
+	#ptd{
+		width: 40px; text-align: center;
+}
+	#tmb{
+		width: 40px; text-align: center;
+}
+	#tpt{
+		width: 20px; text-align: center;
+	}
+#frgi-propiet {
+	width: 790px; text-align: left;
+}
+	#prp{
+		width: 598px; float: right;
+		text-align: left;
+	}
+	#prpr{
+		width: 600px; float: right;
+		text-align: left;
+	}
+#frgi-ncuit {
+	width: 195px; float: right;
+	text-align: left;
+}
+	#cui{
+		width: 135px; float: right;
+		text-align: center;
+	}
+	#cuir{
+		width: 135px; float: right;
+		text-align: center;
+	}
+#frgi-domicll {
+	width: 600px; float: left;
+	text-align: left;
+}
+	#cll{
+		width: 460px; float: right;
+		text-align: left;
+	}
+	#cllr{
+		width: 460px; float: right;
+		text-align: left;
+	}
+#frgi-domicnr {
+	width: 140px; float: left;
+	text-align: left; padding-left: 20px;
+}
+	#cnr{
+		width: 100px; float: right;
+		text-align: right;
+	}
+	#cnrr{
+		width: 100px; float: right;
+		text-align: right;
+	}
+#frgi-domicpt {
+	width: 220px; float: right;
+	text-align: left;
+}
+	#cpt{
+		width: 140px; float: right;
+		text-align: center;
+	}
+	#cptr{
+		width: 140px; float: right;
+		text-align: center;
+	}
+
+#frgi-domiprt {
+	width: 320px; float: left;
+	text-align: left;
+}
+	#prt{
+		width: 250px; float: right;
+		text-align: left;
+	}
+	#prtr{
+		width: 250px; float: right;
+		text-align: left;
+	}
+#frgi-domilcl {
+	width: 340px; float: left;
+	text-align: left; padding-left: 25px;
+}
+	#lcl{
+		width: 250px; float: right;
+		text-align: left;
+	}
+	#lclr{
+		width: 250px; float: right;
+		text-align: left;
+	}
+#frgi-domitlf {
+	width: 290px; float: right;
+	text-align: left; 
+}
+	#tlf{
+		width: 210px; float: right;
+		text-align: left;
+	}
+	#tlfr{
+		width: 210px; float: right;
+		text-align: left;
+	}
+#frgi-domieml {
+	width: 990px; text-align: left;
+}
+	#eml{
+		width: 930px; float: right;
+		text-align: left;
+	}
+	#emlr{
+		width: 930px; float: right;
+		text-align: left;
+	}
+	
+#frgi-nmbtmbo {
+	width: 620px; text-align: left;
+	float: left;
+}
+	#nmb{
+		width: 450px; float: right;
+		text-align: left;
+	}
+	#nmbr{
+		width: 450px; float: right;
+		text-align: left;
+	}
+#frgi-nomcats {
+	width: 350px; text-align: left;
+	float: right;
+}
+	#nct{
+		width: 250px; float: right;
+		text-align: left;
+	}
+	#nctr{
+		width: 250px; float: right;
+		text-align: left;
+	}
+#frgi-ubicupd {
+	width: 555px; float: left;
+	text-align: left;
+}
+	#upd{
+		width: 315px; float: right;
+		text-align: left;
+	}
+#frgi-ubiculc {
+	width: 400px; float: left;
+	text-align: left; padding-left: 5px;
+}
+	#ulc{
+		width: 315px; float: right;
+		text-align: left;
+	}
+#frgi-ubimaps {
+	width: 30px; float: right;
+	text-align: right;
+}
+/*------------------------------------------------------*/
+
+#frg-ordeñe {
+	margin-top: 5px; border: 1px #333333 solid;
+	padding: 5px; height: 55px;
+}
+#frgo-rngl1tpo{
+	width: 330px; float: left;
+	text-align: left;
+}
+	#tpo{
+		width: 220px; float: right;
+		text-align: center;
+	}
+#frgo-rngl1bjd{
+	width: 190px; float: left;
+	text-align: left;
+	padding-left: 50px;
+}
+	#bjd{
+		width: 80px; float: right;
+		text-align: center;
+	}
+#frgo-rngl1tpr{
+	width: 385px; float: right;
+	text-align: left;
+}
+	#tpr{
+		width: 180px; float: right;
+		text-align: center;
+	}
+	
+#frgo-rngl2cho{
+	width: 230px; float: left;
+	text-align: left;
+}
+	#cho{
+		width: 80px; float: right;
+		text-align: center;
+	}
+#frgo-rngl2chs{
+	width: 220px; float: left;
+	text-align: left;
+	padding-left: 20px;
+}
+	#chs{
+		width: 80px; float: right;
+		text-align: center;
+	}
+#frgo-rngl2chr{
+	width: 250px; float: left;
+	text-align: left;
+	padding-left: 20px;
+}
+	#chr{
+		width: 80px; float: right;
+		text-align: center;
+	}
+#frgo-rngl2ltd{
+	width: 185px; float: right;
+	text-align: left;
+}
+	#ltd{
+		width: 80px; float: right;
+		text-align: center;
+	}
+
+/*------------------------------------------------------*/
+
+#frg-campotmb {
+	margin-top: 5px; border: 1px #333333 solid;
+	padding: 5px; height: 85px;
+}
+#frgc-rngl1a{
+	width: 500px; float: left;
+	text-align: left;
+}
+	#lbp{
+		width: 110px; float: right;
+		text-align: center;
+		height: 27px; padding-top: 3px;
+	}
+	#lba{
+		width: 100px; float: right;
+		text-align: center;
+		height: 27px; padding-top: 3px;
+	}
+#frgc-rngl1b{
+	width: 250px; float: right;
+	text-align: left; padding-left: 150px;
+}
+	#kpc{
+		width: 100px; float: right;
+		text-align: center;
+	}
+#frgc-rngl2a{
+	width: 510px; float: left;
+	text-align: left;
+}
+	#scp{
+		width: 100px; float: right;
+		text-align: center;
+		margin-right: 5px;
+	}
+	#sca{
+		width: 100px; float: right;
+		text-align: center;
+		margin-right: 5px;
+	}
+#frgc-rngl2b{
+	width: 288px; float: right;
+	text-align: left; padding-left: 100px;
+}
+	#pac{
+		width: 100px; float: right;
+		text-align: left;
+	}
+#frgc-rngl3a{
+	width: 510px; float: left;
+	text-align: left;
+}
+	#stp{
+		width: 100px; float: right;
+		text-align: center;
+		margin-right: 5px;
+	}
+	#sta{
+		width: 100px; float: right;
+		margin-right: 5px;
+		text-align: center;
+	}
+#frgc-rngl3b{
+	width: 253px; float: right;
+	text-align: left; padding-left: 100px;
+}
+	#nrg{
+		width: 100px; float: right;
+		text-align: left;
+	}
+	
+/*------------------------------------------------------*/
+
+#frg-personal {
+	margin-top: 5px; border: 1px #333333 solid;
+	padding: 5px; height: 55px;
+}
+
+#frgp-rngl1paf{
+	width: 250px; float: left;
+	text-align: left;
+}
+	#paf{
+		width: 80px; float: right;
+		text-align: center;
+	}
+#frgp-rngl1rpo{
+	width: 360px; float: left;
+	text-align: left; padding-left: 80px;
+}
+	#rpo{
+		width: 180px; float: right;
+		text-align: center;
+	}
+#frgp-rngl1edt{
+	width: 210px; float: right;
+	text-align: left; 
+}
+	#edt{
+		width: 80px; float: right;
+		text-align: center;
+	}
+
+#frgp-rngl2ind{
+	width: 988px; float: right;
+	text-align: left; 
+}
+	#ind{
+		width: 810px; float: right;
+		text-align: left;
+	}
+#frg-guardar {
+	margin-top: 5px; text-align: right;
+	padding: 5px; height: 25px;
+}
+
+a {
+	color: #000;
+}
+#frgi-lstPropies{
+	width: 798px; height: 100px; padding: 2px;
+	z-index: 2; position: absolute;
+	background: #FFF; border: 1px #999999 solid;
+	text-align: left; overflow: auto;
+}
+#frgi-lstIndustr{
+	width: 810px; height: 300px; padding: 2px;
+	z-index: 2; position: absolute;
+	background: #FFF; border: 1px #999999 solid;
+	text-align: left; overflow: auto;
+}

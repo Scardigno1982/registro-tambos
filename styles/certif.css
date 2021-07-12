@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #FFF;
+}
+#reporte {
+	width: 33cm ; height:21.6cm;
+	font: 20pt "Times New Roman", Times, serif;
+	background: #FFF; padding: 2cm 4cm;
+}
+#encabeza {
+	text-align: right; height: 100px;
+}
+#recuadro {
+	border: 10px #000000 solid;
+	padding: 40px 20px;
+}
+#titulo1 {
+	font: bold 48pt "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align: center;
+}
+#leyesrg {
+	text-align: center;
+}
+#idtambo {
+	padding: 60px 0px;
+}
+#minister {
+	text-decoration: underline;
+}
+span {
+	font: bold 20pt "Times New Roman", Times, serif;
+}
+#fechado {
+	text-align:right;
+}

@@ -1,0 +1,8 @@
+/* CSS Document */
+
+#logotipo, #botonera {
+  display: none !important;
+}
+#logotipp {
+  display: block !important;
+}
